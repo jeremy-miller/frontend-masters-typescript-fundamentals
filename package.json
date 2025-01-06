@@ -1,0 +1,12 @@
+{
+  "name": "typescript-fundamentals",
+  "license": "NOLICENSE",
+  "version": "0.0.1",
+  "devDependencies": {
+    "typescript": "5.7.2"
+  },
+  "scripts": {
+    "dev": "node_modules/.bin/tsc --watch --preserveWatchOutput",
+    "typecheck": "node_modules/.bin/tsc -P . --noEmit"
+  }
+}
