@@ -3,7 +3,8 @@
   "license": "NOLICENSE",
   "version": "0.0.1",
   "devDependencies": {
-    "typescript": "5.7.2"
+    "typescript": "5.7.2",
+    "ts-node": "^10.9.2"
   },
   "scripts": {
     "dev": "node_modules/.bin/tsc --watch --preserveWatchOutput",
